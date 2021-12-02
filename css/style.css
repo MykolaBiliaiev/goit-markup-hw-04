@@ -14,7 +14,6 @@ p {
   margin: 0;
 }
 
-
 button {
   cursor: pointer;
   border: none;
@@ -140,11 +139,17 @@ a {
 
 .hero-block {
   background-color: #2f303a;
+  position: relative;
+  background-image: url('/images/hero/hero-background.jpg');
 }
 
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.hero-img {
+  
 }
 
 .hero-block-text {
@@ -265,6 +270,8 @@ a {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-title {
@@ -299,6 +306,12 @@ a {
   letter-spacing: 0.03em;
   font-weight: 400;
   text-align: center;
+}
+
+.socmed-button {
+  background-image: url("/images/icons/facebook.svg");
+  width: 40px;
+  height: 40px;
 }
 
 /* footer section */
@@ -376,6 +389,7 @@ a {
 .our-projects-filters:focus {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* our projects section */
@@ -398,6 +412,9 @@ a {
   border-right: 1px solid #eeeeee;
 }
 
+.projects-item:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .our-projects-title {
   font-weight: 700;
   font-size: 18px;
