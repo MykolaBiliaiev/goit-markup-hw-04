@@ -31,7 +31,7 @@
         
         <ul class="head-contacts list">
             <li><a href="mailto:info@devstudio.com" class="head-contacts head-mail">info@example.com</a></li>
-            <li><a href="tel:+380961111111" class="head-contacts">+380961111111</a></li>
+            <li><a href="tel:+380961111111" class="head-contacts head-mobile">+380961111111</a></li>
         </ul>
         </div>
     </header>
@@ -40,9 +40,11 @@
 
         <!--Hero block section-->
         <section class="hero-block">
+            <div class="overlay">
             <div class="container hero-container">
             <h1 class="hero-block-text">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-block-button">Заказать услугу</button>
+            </div>
             </div>
         </section>
 
@@ -50,19 +52,19 @@
         <section class="section">
             <div class="container our-benefits-container">
             <ul class="our-benefits-list list">
-                <li class="our-benefits-item">
+                <li class="our-benefits-item benefit-1">
                     <h3 class="about-us-title">Внимание к деталям</h3>
                     <p class="about-us-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="our-benefits-item">
+                <li class="our-benefits-item benefit-2">
                     <h3 class="about-us-title">Пунктуальность</h3>
                     <p class="about-us-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="our-benefits-item">
+                <li class="our-benefits-item benefit-3">
                     <h3 class="about-us-title">Планирование</h3>
                     <p class="about-us-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="our-benefits-item">
+                <li class="our-benefits-item benefit-4">
                     <h3 class="about-us-title">Современные технологии</h3>
                     <p class="about-us-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -109,10 +111,37 @@
                     <h3 class="team-member-title">Игорь Демьяненко</h3>
                     <p lang="en" class="team-member-description">Product Designer</p>
                     <ul class="social-media-buttons-list list">
-                        <li class="socmed-button"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li> 
+                            <button type="button" class="social-media-buttons">
+                            <svg class="button-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-Instagram"></use>
+                            </svg>
+                            </button>
+                        </li>
+                        
+                        <li>
+                            <button type="button" class="social-media-buttons">
+                            <svg class="button-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-Twitter"></use>
+                            </svg> 
+                            </button>
+                        </li>
+
+                        <li>
+                            <button type="button" class="social-media-buttons">
+                            <svg class="button-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-Facebook"></use>
+                            </svg>
+                            </button>
+                        </li>
+                    
+                        <li>
+                            <button type="button" class="social-media-buttons">
+                            <svg class="button-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-LinkedIN"></use>
+                            </svg>
+                            </button>
+                        </li>
                     </ul>
                     </div>
                 </li>
@@ -146,12 +175,46 @@
             </ul>
             </div>
         </section>
+
+<section class="our-clients">
+
+    <div class="">
+    <h2 class="our-clients-title">Постоянные клиенты</h2>
+    <ul class="list">
+        <a href="">
+            <li class="clients-logo"> <img src="/images/our-clients/Logo-1.png" alt=""></li>
+        </a>
+
+        <a href="">
+            <li></li>
+        </a>
+
+        <a href="">
+            <li></li>
+        </a>
+
+        <a href="">
+            <li></li>
+        </a>
+
+        <a href="">
+            <li></li>
+        </a>
+
+        <a href="">
+            <li></li>
+        </a>
+    </ul>
+    
+    </div>
+</section>
+
     </main>
 
     <!--Footer-section-->
     <footer class="footer">
         
-        <div class="container">
+        <div>
         <a href="./index.html" class="logo link footer-logo" lang="en">
             <span class="logo-color-web">Web</span><span class="logo-color-studio-footer">Studio</span>
         </a>
@@ -169,6 +232,45 @@
         </ul>
         </address>
         </div>
+
+        <div class="footer-social-media">
+            <h3 class="join-us-title">присоединяйтесь</h3>
+            <ul class="social-media-buttons-list list">
+                <li>
+                    <button type="button" class="social-media-buttons">
+                        <svg class="button-icon">
+                            <use href="./images/icons/symbol-defs.svg#icon-Instagram"></use>
+                        </svg>
+                    </button>
+                </li>
+        
+                <li>
+                    <button type="button" class="social-media-buttons">
+                        <svg class="button-icon">
+                            <use href="./images/icons/symbol-defs.svg#icon-Twitter"></use>
+                        </svg>
+                    </button>
+                </li>
+        
+                <li>
+                    <button type="button" class="social-media-buttons">
+                        <svg class="button-icon">
+                            <use href="./images/icons/symbol-defs.svg#icon-Facebook"></use>
+                        </svg>
+                    </button>
+                </li>
+        
+                <li>
+                    <button type="button" class="social-media-buttons">
+                        <svg class="button-icon">
+                            <use href="./images/icons/symbol-defs.svg#icon-LinkedIN"></use>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        
     </footer>
 </body>
 </html>
