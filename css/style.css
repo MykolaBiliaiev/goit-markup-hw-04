@@ -227,13 +227,12 @@ url('/images/hero/hero-background.jpg');
 .our-benefits-item::before {
   display: block;
   content: "";
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
 }
 
-.benefit-1::before {
+.benefit-antenna::before {
   display: block;
   content: "";
   background-repeat: no-repeat;
@@ -241,7 +240,7 @@ url('/images/hero/hero-background.jpg');
   background-position: center;
 }
 
-.benefit-2::before {
+.benefit-clock::before {
   display: block;
   content: "";
   background-repeat: no-repeat;
@@ -249,7 +248,7 @@ url('/images/hero/hero-background.jpg');
   background-position: center;
 }
 
-.benefit-3::before {
+.benefit-diagram::before {
   display: block;
   content: "";
   background-repeat: no-repeat;
@@ -257,12 +256,13 @@ url('/images/hero/hero-background.jpg');
   background-position: center;
 }
 
-.benefit-4::before {
+.benefit-astronaut::before {
   display: block;
   content: "";
   background-repeat: no-repeat;
   background-image: url(/images/our-benefits/astronaut-4.svg);
   background-position: center;
+
 }
 
 .our-benefits-item:not(:last-child) {
@@ -393,6 +393,45 @@ url('/images/hero/hero-background.jpg');
   background-color: #fff;
 }
 
+/* experiment */
+
+.action {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid orange;
+  list-style: none;
+}
+
+.team-icon-instagram {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  fill: currentColor;
+}
+
+.team-btn-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  color: #AFB1B8;
+  border-radius: 50%;
+}
+
+.our-clients-instagram {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+  fill: #2196f3;
+}
+
 /* .social-media-buttons:hover,
 .social-media-buttons:focus {
 background-color: #2196F3;
@@ -403,7 +442,7 @@ background-color: #2196F3;
   height: 44px;
   background-color: #4e0808;
   margin-right: 10px;
-  border-radius: 50px;
+  border-radius: 50%;
   fill: currentColor;
 }
 
@@ -417,9 +456,6 @@ background-color: #2196F3;
   height: 184px;
 }
 
-.clients-logo {
-
-}
 
 .clients-logo:hover,
 .clients-logo:focus {
