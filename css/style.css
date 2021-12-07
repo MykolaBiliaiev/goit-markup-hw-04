@@ -393,49 +393,6 @@ url('/images/hero/hero-background.jpg');
   background-color: #fff;
 }
 
-/* experiment */
-
-.action {
-  display: flex;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid orange;
-  list-style: none;
-}
-
-.team-icon-instagram {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  fill: currentColor;
-}
-
-.team-btn-instagram {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  background-color: #fff;
-  color: #AFB1B8;
-  border-radius: 50%;
-}
-
-.our-clients-instagram {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  fill: currentColor;
-  width: 20px;
-  height: 20px;
-  fill: #2196f3;
-}
-
-/* .social-media-buttons:hover,
-.social-media-buttons:focus {
-background-color: #2196F3;
-} */
 
 .button-icon {
   width: 44px;
@@ -454,12 +411,10 @@ background-color: #2196F3;
 .our-clients {
   width: 1200px;
   height: 184px;
-}
-
-
-.clients-logo:hover,
-.clients-logo:focus {
-  color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  margin-top: 94px;
 }
 
 .our-clients-title {
@@ -470,6 +425,59 @@ background-color: #2196F3;
   text-align: center;
 }
 
+.cliients-logo-list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  fill: #2196F3;
+}
+
+.clients-logo-box {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-logo-1 {
+  width: 106px;
+  height: 60px;
+  background-position: center;
+  
+}
+
+.clients-logo-2 {
+  width: 106px;
+  height: 60px;
+  
+}
+
+.clients-logo-3 {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-logo-4 {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-logo-5 {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-logo-6 {
+  width: 106px;
+  height: 60px;
+
+}
 
 /* footer section */
 .footer {
