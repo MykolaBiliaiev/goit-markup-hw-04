@@ -103,7 +103,6 @@ a {
 
 .site-nav-item:not(:last-child) {
   margin-right: 50px;
-  
 }
 
 .site-nav-item {
@@ -145,24 +144,13 @@ a {
   margin-right: 30px;
 }
 
-.head-mail::before {
-  content: "";
-  width: 16px;
-  height: 12px;
+.header-icon {
   margin-right: 10px;
-  background-image: 
-  url(/../images/header-contacts/envelope.svg);
-  background-size: contain;
+  fill: currentColor;
 }
 
-.head-mobile::before {
-  content: "";
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: 
-  url(../images/header-contacts/smartphone.svg);
-  background-size: contain;
+.header-icon:hover {
+  fill: currentColor;
 }
 
 /* hero block section */
@@ -390,9 +378,10 @@ url('../images/hero/hero-background.jpg');
 
 .team-socmedia-list {
   display: flex;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
+  width: 206px;
 }
 
 .team-socmedia-logo-box {
@@ -522,7 +511,6 @@ url('../images/hero/hero-background.jpg');
 
 .footer-social-media {
   width: 206px;
-  height: 80px;
   margin-right: auto;
   margin-left: 70px;
   margin-top: 12px;
@@ -542,23 +530,29 @@ url('../images/hero/hero-background.jpg');
 
 .footer-socmedia-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-socmedia-logo-box {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
+  color: white;
 }
 
-.footer-instagram {
-  width: 20px;
-  height: 20px;
+.footer-socmedia-logo-box:hover, .footer-socmedia-logo-box:focus {
+background-color: #2196F3;
+}
+
+.footer-socmedia-icon {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+fill: currentColor;
 }
 
 /* filters section */
