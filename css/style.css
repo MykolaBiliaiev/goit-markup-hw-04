@@ -126,12 +126,12 @@ a {
 
 .head-contacts {
   display: flex;
+  justify-content: center;
   color: #757575;
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -378,6 +378,7 @@ url('../images/hero/hero-background.jpg');
 
 .team-socmedia-list {
   display: flex;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -387,13 +388,27 @@ url('../images/hero/hero-background.jpg');
 .team-socmedia-logo-box {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background: #ffffff;
-  margin-right: 10px;
+  background-color: #ffffff;
   border-radius: 100%;
+  color: #AFB1B8;
 }
+
+.team-socmedia-logo-box:hover, .team-socmedia-logo-box:focus {
+background-color: #2196F3;
+color: #ffffff;
+}
+
+.team-socm-icon {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+fill: currentColor;
+}
+
+/* Our-clients-section */
 
 .our-clients {
   width: 1200px;
