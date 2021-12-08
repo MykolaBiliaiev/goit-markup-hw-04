@@ -151,7 +151,7 @@ a {
   height: 12px;
   margin-right: 10px;
   background-image: 
-  url(/images/header-contacts/envelope.svg);
+  url(/../images/header-contacts/envelope.svg);
   background-size: contain;
 }
 
@@ -161,7 +161,7 @@ a {
   height: 16px;
   margin-right: 10px;
   background-image: 
-  url(/images/header-contacts/smartphone.svg);
+  url(../images/header-contacts/smartphone.svg);
   background-size: contain;
 }
 
@@ -245,7 +245,7 @@ url('../images/hero/hero-background.jpg');
   display: block;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(/images/our-benefits/antenna-1.svg);
+  background-image: url(../images/our-benefits/antenna-1.svg);
   background-position: center;
 }
 
@@ -253,7 +253,7 @@ url('../images/hero/hero-background.jpg');
   display: block;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(/images/our-benefits/clock-2.svg);
+  background-image: url(../images/our-benefits/clock-2.svg);
   background-position: center;
 }
 
@@ -261,7 +261,7 @@ url('../images/hero/hero-background.jpg');
   display: block;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(/images/our-benefits/diagram-3.svg);
+  background-image: url(../images/our-benefits/diagram-3.svg);
   background-position: center;
 }
 
@@ -269,7 +269,7 @@ url('../images/hero/hero-background.jpg');
   display: block;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(/images/our-benefits/astronaut-4.svg);
+  background-image: url(../images/our-benefits/astronaut-4.svg);
   background-position: center;
 
 }
@@ -485,6 +485,10 @@ url('../images/hero/hero-background.jpg');
   padding-left: 215px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-content-container {
+  display: flex;
 }
 
 .footer-logo {
