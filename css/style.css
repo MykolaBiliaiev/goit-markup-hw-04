@@ -379,33 +379,22 @@ url('/images/hero/hero-background.jpg');
   text-align: center;
 }
 
-.social-media-buttons-list {
+.team-socmedia-list {
   display: flex;
-  list-style: none;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+}
+
+.team-socmedia-logo-box {
+  display: flex;
   justify-content: center;
-  background-color: #fff;
-  margin-top: 16px;
-}
-
-.social-media-buttons {
-  padding: 0;
-  border:none;
-  background-color: #fff;
-}
-
-
-.button-icon {
+  align-content: center;
   width: 44px;
   height: 44px;
-  background-color: #4e0808;
+  background: #ffffff;
   margin-right: 10px;
-  border-radius: 50%;
-  fill: currentColor;
-}
-
-.button-icon:hover {
-  fill: #2196F3;
-  background-color: #2196F3;
+  border-radius: 100%;
 }
 
 .our-clients {
@@ -518,6 +507,14 @@ url('/images/hero/hero-background.jpg');
   line-height: 1.7;
 }
 
+.footer-social-media {
+  width: 206px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
 .join-us-title {
   color: #ffffff;
   text-transform: uppercase;
@@ -530,13 +527,27 @@ url('/images/hero/hero-background.jpg');
   letter-spacing: 0.03em;
 }
 
-.footer-social-media {
-  width: 206px;
-  height: 80px;
-  margin-right: auto;
-  margin-left: 70px;
-  margin-top: 12px;
+.footer-socmedia-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.footer-socmedia-logo-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.footer-instagram {
+  width: 20px;
+  height: 20px;
+}
+
 /* filters section */
 
 .filters-buttons {
