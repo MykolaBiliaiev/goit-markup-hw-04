@@ -119,10 +119,7 @@ a {
   color: #2196f3;
 }
 
-.site-nav-contacts:hover,
-.site-nav-contacts:focus {
-  color: #2196f3;
-}
+
 
 .head-contacts {
   display: flex;
@@ -412,11 +409,10 @@ fill: currentColor;
 
 .our-clients {
   width: 1200px;
-  height: 184px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .our-clients-title {
@@ -464,7 +460,6 @@ fill: currentColor;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
   display: flex;
   justify-content: space-between;
 }
